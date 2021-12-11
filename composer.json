@@ -1,0 +1,33 @@
+{
+	"name": "zubdev/ci4smarty",
+	"description": "Separate you Codeigniter4 logic from the presentation using Smarty",
+	"keywords": [
+		"codeigniter",
+		"smarty",
+		"templates"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Zubayr Ganiyu",
+			"email": "seunexseun@gmail.com",
+			"homepage": "https://www.zubdev.net",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=7.3",
+		"codeigniter4/framework": "^4",
+		"smarty/smarty": "^4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Zubdev\\Ci4Smarty\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Zubdev\\Ci4Smarty\\": "src/"
+		}
+	}
+}
