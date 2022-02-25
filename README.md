@@ -2,7 +2,7 @@
 ![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=seunex17/ci4-smarty)
 
 # ci4-smarty
-ci4-smarty
+
 Easily implement the Smarty templating engine in your CodeIgniter 4 project.
 
 **NOTE: This library is under early development.**
