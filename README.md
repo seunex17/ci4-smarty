@@ -2,16 +2,18 @@
 ![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=seunex17/ci4-smarty)
 
 # ci4-smarty
-Implement Smarty template engine you Codeigniter 4
-**NOTE: This lib is under early development.**
+ci4-smarty
+Easily implement the Smarty templating engine in your CodeIgniter 4 project.
+
+**NOTE: This library is under early development.**
 
 ## Description
-Separate your Codeigniter4 logic from the presentation using Smarty **simply easy**
+Separate the application logic from your presentation layer in CodeIgniter 4 using this clean and semantic pre-built Smarty template.
 
 
 ## Requirements
-* Codeigniter 4.*
-* Smarty 4.*
+* Codeigniter 4.x
+* Smarty 4.x
 
 ## Installation
 Installation is best done via Composer, you may use the following command:
@@ -36,7 +38,7 @@ namespace to the **$psr4** array. For example, if you copied it into **app/Libra
 
 
 ## Example:
-This is an example code for using this library:
+Here is an example of basic usage:
 * PHP:
 ```php
 <?php namespace App\Controllers;
@@ -53,7 +55,7 @@ class Home extends BaseController
 }
 ```
 
-Let pass data from the controller to the view
+To pass data from the Controller to the View:
 * PHP:
 ```php
 <?php namespace App\Controllers;
@@ -94,7 +96,7 @@ class Admin extends BaseController
 
 ## Global Availability:
 
-We can make the library available for all controller can be set at **app/Controllers/BaseController**
+Expose the library to the entire application by modifying the BaseController: **app/Controllers/BaseController**
 ```php
 <?php
 
@@ -137,4 +139,4 @@ class Home extends BaseController
 <br />
 
 ## Contributing:
-We will appreciate every contribution.
+All contributions are extremely appreciated.
